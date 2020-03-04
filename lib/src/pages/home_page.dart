@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: prefs.secondaryColor ? Colors.teal : Colors.blue,
         title: Text('User Preferences')
       ),
       drawer: MenuWidgets(),
